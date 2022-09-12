@@ -172,6 +172,7 @@ header .container .menu ul {
   height: 200px;
   width: 90%;
   background-color: rgb(20, 132, 140);
+  /*background img da inserire*/
   text-align: center;
   padding: 20px;
 }
@@ -209,6 +210,48 @@ header .container .menu ul {
 }
 
 footer {
+  /*dimensioni temporanee*/
   height: 670px;
   background-color: #151719;
+  padding: 86px;
 }
+
+footer .footer-upper-part {
+  padding-bottom: 35px;
+  border-bottom: 1px solid black;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  /*dimensioni temporanee*/
+  width: 250px;
+  height: 165px;
+}
+
+.footer-left .social-media ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none; 
+ }
+
+ .footer-left .social-media ul li {
+  padding: 5px;
+ }
+
+ footer .footer-upper-part .container .menu-1, footer .footer-upper-part .container .menu-2, footer .footer-upper-part .container .menu-3, footer .footer-upper-part .container .menu-4 {
+  width: 200px;
+  /*dimensioni temporanee*/
+  display: flex;
+  justify-content: center;
+ }
+
+ footer .footer-upper-part .container .menu-1 ul, footer .footer-upper-part .container .menu-2 ul, footer .footer-upper-part .container .menu-3 ul, footer .footer-upper-part .container .menu-4 ul {
+  list-style: none; 
+}
+
+footer .footer-lower-part {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+ }
