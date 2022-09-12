@@ -35,6 +35,7 @@ header .container .menu ul {
  }
 
 .container {
+  display: flex;
   width: 90%;
   margin: 0 auto;
 }
@@ -49,18 +50,21 @@ header .container .menu ul {
 
 .section-top {
   display: flex;
+  align-items: center;
   /*height temporanea*/
   height: 700px;
 }
 
-.section-top .foto1 {
+.section-top .container .foto1 {
   /*dimensioni temporanee*/
   height: 450px;
   width: 50%;
   background-color: lightgreen;
+  /*temporaneo*/
+  text-align: center;
 }
 
-.section-top .contents {
+.section-top .container .contents {
   /*dimensioni temporanee*/
   height: 450px;
   width: 50%;
@@ -69,14 +73,142 @@ header .container .menu ul {
   padding: 20px;
 }
 
-.section-top .contents h2 {
+.section-top .container .contents h2 {
   text-align: left;
   padding: 10px 40px 10px 40px;
   font-size: 2rem;
 }
 
-.section-top .contents p {
+.section-top .container .contents p {
   text-align: left;
   padding: 10px 40px 40px 40px;
   font-size: 1rem;
+}
+
+.section-middle {
+  display: flex;
+  align-items: center;
+  /*height temporanea*/
+  height: 700px;
+}
+
+.section-middle .contents {
+  /*dimensioni temporanee*/
+  height: 450px;
+  width: 35%;
+  background-color: rgb(195, 130, 77);
+  text-align: center;
+  padding: 20px;
+}
+
+.section-middle .container .contents h2 {
+  text-align: left;
+  padding: 10px 40px 10px 40px;
+  font-size: 2rem;
+}
+
+.section-middle .container .contents p {
+  text-align: left;
+  padding: 10px 40px 40px 40px;
+  font-size: 1rem;
+}
+
+.section-middle .container .foto2 {
+  /*dimensioni temporanee*/
+  height: 450px;
+  width: 65%;
+  background-color: rgb(235, 110, 22);
+    /*temporaneo*/
+    text-align: center;
+}
+
+.section-bottom {
+  display: flex;
+  align-items: center;
+  /*height temporanea*/
+  height: 700px;
+}
+
+.section-bottom .container .foto3 {
+  /*dimensioni temporanee*/
+  height: 450px;
+  width: 50%;
+  background-color: rgb(228, 72, 183);
+  /*temporaneo*/
+  text-align: center;
+}
+
+.section-bottom .container .contents {
+  /*dimensioni temporanee*/
+  height: 450px;
+  width: 50%;
+  background-color: rgb(226, 22, 155);
+  text-align: center;
+  padding: 20px;
+}
+
+.section-bottom .container .contents h2 {
+  text-align: left;
+  padding: 10px 40px 10px 40px;
+  font-size: 2rem;
+}
+
+.section-bottom .container .contents p {
+  text-align: left;
+  padding: 10px 40px 40px 40px;
+  font-size: 1rem;
+}
+
+.section-closure .container {
+  width: 90%;
+  display: block;
+  text-align: center;
+
+}
+
+
+.section-closure .container .contents {
+  /*dimensioni temporanee*/
+  height: 200px;
+  width: 90%;
+  background-color: rgb(20, 132, 140);
+  text-align: center;
+  padding: 20px;
+}
+
+.section-closure .container .contents h2 {
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.section-closure .container .contents p {
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.section-closure .container .foto4 {
+  /*dimensioni temporanee*/
+  height: 570px;
+  width: 90%;
+  background-color: rgb(46, 45, 146);
+  /*temporaneo*/
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-closure .container .cta h3 {
+  width: 90%;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.section-closure .container .cta .download {
+  width: 90%;
+  padding-bottom: 140px;
+}
+
+footer {
+  height: 670px;
+  background-color: #151719;
 }
